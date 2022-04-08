@@ -31,11 +31,15 @@ class MainActivity : AppCompatActivity() {
 
         val intent = Intent(this, MostraMensagemActivity::class.java)
 
-        intent.putExtra("MENSAGEM", mensagem)
+        intent.putExtra(INFO_EXTRA_MENSAGEM, mensagem)
 
         startActivity(intent)
     }
+    companion object{
+        const val INFO_EXTRA_MENSAGEM = "MENSAGEM"
+    }
 }
+
 
 
 
