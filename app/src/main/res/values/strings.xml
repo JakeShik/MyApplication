@@ -3,4 +3,5 @@
     <string name="enviar">Enviar</string>
     <string name="mensagem">Mensagem</string>
     <string name="mensagem_recebida">Mensagem recebida</string>
+    <string name="fillMessage">Deve preencher a mensagem</string>
 </resources>

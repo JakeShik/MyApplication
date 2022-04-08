@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         val mensagem = editTextMensagem.text.toString()
 
         if(mensagem.isBlank()){
-            editTextMensagem.error = "Deve preencher a mensagem"
+            editTextMensagem.error = getString(R.string.fillMessage)
             editTextMensagem.requestFocus()
             return
         }
