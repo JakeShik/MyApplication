@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <string name="enviar">Enviar</string>
-    <string name="mensagem">Mensagem</string>
-    <string name="mensagem_recebida">Mensagem recebida</string>
-    <string name="fillMessage">Deve preencher a mensagem</string>
+    <string name="app_name" translatable="false">My Application</string>
+    <string name="enviar">Send</string>
+    <string name="mensagem">Message</string>
+    <string name="mensagem_recebida">Message Received</string>
+    <string name="fillMessage">Must fullfill the message box</string>
 </resources>
